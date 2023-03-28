@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.homework.shudu"
+    android:versionCode="1"
+    android:versionName="2.0">
+
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="17" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/sudoku"
+        android:label="数独"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".Personal"
+            android:exported="false" />
+        <activity
+            android:name=".ChangeLevel"
+            android:exported="false" />
+        <activity
+            android:name=".Welcome"
+            android:exported="false" />
+        <activity
+            android:name=".MainPage"
+            android:exported="false" />
+        <activity
+            android:name=".demo"
+            android:exported="false" />
+        <activity
+            android:name=".Setting"
+            android:exported="false" />
+        <activity
+            android:name=".Sign"
+            android:exported="false" />
+        <activity
+            android:name=".Login"
+            android:exported="false" />
+        <activity
+            android:name=".MainActivity"
+            android:exported="false" />
+        <activity
+            android:name=".LoadPage"
+            android:exported="true"
+            android:label="数独游戏">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".About"
+            android:label="关于游戏"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name=".Game"
+            android:label="@string/app_name" />
+        <activity
+            android:name=".KeyPad"
+            android:label="数字填充"
+            tools:ignore="Instantiatable,MissingClass" />
+        <activity android:name=".Prefs" />
+        <activity android:name=".ColorActivity" />
+        <activity
+            android:name=".ChangeTheme"
+            android:label="Theme" />
+    </application>
+
+</manifest>

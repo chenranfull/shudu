@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string-array name="list_preference">
+        <item>小</item>
+        <item>普通</item>
+        <item>大</item>
+        <item>超大</item>
+    </string-array>
+    <string-array name="list_preference_value">
+        <item>40</item>
+        <item>50</item>
+        <item>60</item>
+        <item>80</item>
+    </string-array>
+</resources>

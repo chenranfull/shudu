@@ -1,0 +1,41 @@
+<resources xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <!--
+        Base application theme, dependent on API level. This theme is replaced
+        by AppBaseTheme from res/values-vXX/styles.xml on newer devices.
+    -->
+    <style name="AppBaseTheme" parent="android:Theme.Light">
+        <!--
+            Theme customizations available in newer API levels can go in
+            res/values-vXX/styles.xml, while customizations related to
+            backward-compatibility can go here.
+        -->
+    </style>
+
+    <!-- Application theme. -->
+    <style name="AppTheme" parent="AppBaseTheme">
+        <!-- All customizations that are NOT specific to a particular API-level can go here. -->
+    </style>
+
+    <style name="style1" parent="@android:style/Theme.Dialog">
+        <item name="android:background">#ffa</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:textColor">#c99</item>
+        <item name="android:windowNoTitle">true</item>
+    </style>
+	<style name="prefs_theme">
+	    <item name="android:background">#2f7a93</item>
+	    <item name="android:focusable">false</item>
+	    <item name="android:textColor">#f75bd1</item>
+	    <item name="android:cacheColorHint">#000000</item>
+	    <item name="android:windowNoTitle">false</item>
+	</style>
+	<style name="TitleBg">
+	    <item name="android:background">#2f7a93</item>
+	    <item name="android:cacheColorHint">#000000</item>
+	    <item name="android:focusable">false</item>
+	</style>
+	<style name="blackDialog" parent="@android:style/Theme.Dialog">
+	    <item name="android:background">#222</item>
+	</style>
+</resources>
